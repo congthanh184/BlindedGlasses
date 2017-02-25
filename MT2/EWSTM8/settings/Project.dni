@@ -1,0 +1,56 @@
+[DebugChecksum]
+Checksum=1492669927
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[array_types]
+Fmt0=uint8_t[30]	3	0
+[watch_formats]
+Fmt0={W}0:countStableVal	3	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\main.c}.464.1" 0 0 0 0 "" 0 ""
+Count=1
+[Aliases]
+A0=_ "C:\Users\Son\Desktop\Digital_Eyes\Digital_Eyes_200_v4\Libraries\STM8S_StdPeriph_Driver\src\stm8s_gpio.c" "C:\Users\Son\Desktop\Digital_Eyes_200_v4\Digital_Eyes_200_v4.1\Project\STM8S_StdPeriph_Template\src\stm8s_gpio.c"
+Count=1
+SuppressDialog=1
